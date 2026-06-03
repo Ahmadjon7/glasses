@@ -64,7 +64,8 @@ export function HeroSection() {
                 size="lg"
                 className="px-8 py-3 rounded-full text-lg font-semibold border-2 hover:bg-gray-50 dark:hover:bg-gray-800 transition-all duration-300"
               >
-                {tString("about")}
+                {tString("aboutLink")}
+            
               </Button>
             </Link>
           </div>
@@ -73,15 +74,16 @@ export function HeroSection() {
           <div className="grid grid-cols-3 gap-8 mt-16 max-w-md mx-auto">
             <div className="text-center">
               <div className="text-3xl font-bold text-purple-600 dark:text-purple-400">500+</div>
-              <div className="text-sm text-gray-600 dark:text-gray-400">{tString("products")}</div>
+              <div className="text-sm text-gray-600 dark:text-gray-400">{tString("productsLink")}</div>
             </div>
             <div className="text-center">
               <div className="text-3xl font-bold text-pink-600 dark:text-pink-400">50+</div>
-              <div className="text-sm text-gray-600 dark:text-gray-400">{tString("brands")}</div>
+              
+              <div className="text-sm text-gray-600 dark:text-gray-400">{tString("brandsFilter")}</div>
             </div>
             <div className="text-center">
               <div className="text-3xl font-bold text-blue-600 dark:text-blue-400">10k+</div>
-              <div className="text-sm text-gray-600 dark:text-gray-400">{tString("customers")}</div>
+              <div className="text-sm text-gray-600 dark:text-gray-400">{tString("customerService")}</div>
             </div>
           </div>
         </div>

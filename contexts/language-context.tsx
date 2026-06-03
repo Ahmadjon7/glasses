@@ -404,7 +404,7 @@ const translations: Record<Language, CommonTranslations> = {
     // Hero Sections
     homeHero: {
       title: "VisionVogue",
-      subtitle: "Koleksiya modern ochqlar",
+      subtitle: "Koleksiya modern kozoynaklar",
       description: "Premium ochqlar eng yaxshi brendlardan. Sizning ko'zlaringiz - bizning asosiy maqsadimiz."
     },
     aboutHero: {
